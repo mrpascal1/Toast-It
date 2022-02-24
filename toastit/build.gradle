@@ -45,8 +45,8 @@ afterEvaluate {
         publications{
             release(MavenPublication){
                 from components.release
-                groupId = 'com.shahid'
-                artifactId = 'toast-it'
+                groupId = 'com.github.mrpascal1'
+                artifactId = 'Toast-It'
                 version = '1.0.0'
             }
         }
