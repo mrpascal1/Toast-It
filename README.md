@@ -6,7 +6,7 @@ Toast library for android
 	<img src="https://i.imgur.com/qvRLuxr.png" width="128">
 </div>
 
-Fancy toast with material colors.
+Fancy toast with material colors and shadows.
 
 ## Prerequisites
 
@@ -123,4 +123,4 @@ shouldTint).show()
 
 **Please click the image below to enlarge.**
 
-<img src="https://raw.githubusercontent.com/GrenderG/Toasty/master/art/collage.png">
+<img src="https://i.imgur.com/jpI6P2o.png">
