@@ -3,7 +3,7 @@ Toast library for android
 
 
 <div align="center">
-	<blockquote class="imgur-embed-pub" lang="en" data-id="a/5Zh66tz"  ><a href="//imgur.com/a/5Zh66tz"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+	[Imgur](https://imgur.com/qvRLuxr)
 </div>
 
 Fancy toast with material colors.
