@@ -3,7 +3,7 @@ Toast library for android
 
 
 <div align="center">
-	[img]https://i.imgur.com/qvRLuxr.png[/img]
+	<img src="https://i.imgur.com/qvRLuxr.png" width="128">
 </div>
 
 Fancy toast with material colors.
