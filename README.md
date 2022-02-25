@@ -126,4 +126,7 @@ shouldTint).show()
 <img src="https://i.imgur.com/jpI6P2o.png">
 
 ## Credits
-Original project [Toasty](https://github.com/GrenderG/Toasty)
+Inspired from [Toasty](https://github.com/GrenderG/Toasty)
+
+## License
+GNU GPLv3
