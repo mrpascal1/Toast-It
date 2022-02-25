@@ -124,3 +124,6 @@ shouldTint).show()
 **Please click the image below to enlarge.**
 
 <img src="https://i.imgur.com/jpI6P2o.png">
+
+## Credits
+Original project [Toasty](https://github.com/GrenderG/Toasty)
