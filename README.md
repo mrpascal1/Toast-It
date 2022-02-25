@@ -129,4 +129,4 @@ shouldTint).show()
 Inspired from [Toasty](https://github.com/GrenderG/Toasty)
 
 ## License
-GNU GPLv3
+GNU GPL v3
