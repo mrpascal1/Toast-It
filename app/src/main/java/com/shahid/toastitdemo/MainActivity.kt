@@ -22,13 +22,13 @@ class MainActivity : AppCompatActivity() {
             ToastIt.success(this, R.string.success_toast).show()
         }
         binding.buttonErrorToast.setOnClickListener {
-            ToastIt.error(this, "My test for ToastIt", ToastIt.LENGTH_SHORT, true).show()
+            ToastIt.error(this, R.string.error_message, ToastIt.LENGTH_SHORT, true).show()
         }
         binding.buttonInfoToast.setOnClickListener {
-            ToastIt.info(this, R.string.info_message, ToastIt.LENGTH_SHORT, true).show();
+            ToastIt.info(this, R.string.info_message, ToastIt.LENGTH_SHORT, true).show()
         }
         binding.buttonWarningToast.setOnClickListener {
-            ToastIt.warning(this, R.string.warning_message, ToastIt.LENGTH_SHORT, true).show();
+            ToastIt.warning(this, R.string.warning_message, ToastIt.LENGTH_SHORT, true).show()
         }
         binding.buttonNormalToastWoIcon.setOnClickListener {
             ToastIt.normal(this, R.string.normal_message_without_icon).show()
@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
             ToastIt.normal(this, R.string.normal_message_with_icon, icon).show()
         }
         binding.buttonInfoToastWithFormatting.setOnClickListener {
-            ToastIt.info(this, getFormattedMessage().toString()).show()
+            ToastIt.info(this, getFormattedMessage()).show()
         }
         binding.buttonCustomConfig.setOnClickListener {
             ToastIt.Config.getInstance()
@@ -58,12 +58,12 @@ class MainActivity : AppCompatActivity() {
             ToastIt.Config.reset() // Use this if you want to use the configuration above only once
         }
         binding.buttonShadowToast.setOnClickListener {
-            ToastIt.Config.getInstance().setShadow(ShadowOptions.DROP_SHADOW).apply();
-            ToastIt.normal(this, R.string.shadow_message, ToastIt.LENGTH_SHORT).show();
-            ToastIt.Config.reset();
+            ToastIt.Config.getInstance().setShadow(ShadowOptions.DROP_SHADOW).apply()
+            ToastIt.warning(this, R.string.shadow_message, ToastIt.LENGTH_SHORT).show()
+            ToastIt.Config.reset()
         }
     }
-    private fun getFormattedMessage(): CharSequence? {
+    private fun getFormattedMessage(): CharSequence {
         val prefix = "Formatted "
         val highlight = "bold italic"
         val suffix = " text"
