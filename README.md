@@ -3,7 +3,7 @@ Toast library for android
 
 
 <div align="center">
-	<img src="https://imgur.com/a/5Zh66tz" width="128">
+	<blockquote class="imgur-embed-pub" lang="en" data-id="a/5Zh66tz"  ><a href="//imgur.com/a/5Zh66tz"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 </div>
 
 Fancy toast with material colors.
@@ -36,7 +36,7 @@ dependencies {
 
 This step is optional, but if you want you can configure some ToastIt parameters. Place this anywhere in your app:
 
-# Kotlin
+### Kotlin
 ```kotlin
 ToastIt.Config.getInstance()
     .tintIcon(tintIcon Boolean) // optional (apply textColor also to the icon)
@@ -55,7 +55,7 @@ You can reset the configuration by using `reset()` method:
 ToastIt.Config.reset()
 ```
 
-# Java
+### Java
 ```java
 ToastIt.Config.getInstance()
     .tintIcon(boolean tintIcon) // optional (apply textColor also to the icon)
