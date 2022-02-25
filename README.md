@@ -2,7 +2,7 @@
 Toast library for android
 
 
-<div align="center">
+<div align="left">
 	<img src="https://i.imgur.com/qvRLuxr.png" width="128">
 </div>
 
