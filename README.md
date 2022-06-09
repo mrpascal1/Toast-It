@@ -127,3 +127,5 @@ shouldTint).show()
 
 ## License
 GNU GPL v3
+
+Based on the [Toasty library](https://github.com/GrenderG/Toasty)
